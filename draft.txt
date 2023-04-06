@@ -1,0 +1,11 @@
+temp_Patient.set_patient(row[0]);
+      if(row[1]=="1")
+        temp_Patient.set_admission(true);
+      else
+        temp_Patient.set_admission(false);
+      if(row[2]=="1")
+        temp_Patient.set_patient_condition(true);
+      else
+        temp_Patient.set_patient_condition(false);
+
+      patientList.push_back(temp_Patient);
